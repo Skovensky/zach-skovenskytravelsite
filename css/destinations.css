@@ -1,0 +1,251 @@
+.hawaii__background{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    position: absolute;
+
+    
+}
+
+.destination__content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 1500px;
+ 
+}
+
+.background__img-iceland {
+  background-image: url(../assets/images/iceland.jpg);
+  width: 2000px;
+  height: 2000px;
+  object-fit: fill;
+}
+
+.background__img-greece {
+  background-image: url(../assets/images/greece.jpg);
+  width: 2000px;
+  height: 2000px;
+  object-fit: fill;
+}
+
+.navStyles {
+    background-color:#ffffff ;
+    height: 4.5em;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#335576;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+a:hover { 
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.nav-left {
+    padding: 0 1em 0 0;
+    width: 45%;
+    justify-content: space-between;
+    
+  }
+
+  .flexer {
+    display: flex;
+  }
+  .aligner {
+    align-items: center;
+  }
+
+  ul {
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    margin-left: 0.5rem;
+  }
+
+  .destination__schedual {
+    background-color: #ffffff;
+    background-size: 100%;
+
+    height: 700px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    /*margin-left: 0px;*/
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+    .footer {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: #fcf6f5;
+      }
+      
+      .footer__title {
+          color:#335576 ;
+          font-size: 45px;
+          font-weight: bold;
+          font-family:Arial, Helvetica, sans-serif;
+      }
+    
+    
+    .footer__days-monday {
+        margin-top:-10px;
+        font-size: 15px;
+        font-weight: 300;
+        color: rgb(247, 127, 35);
+        font-family: Arial, Helvetica, sans-serif;  
+    }
+    
+    .footer__days-saturday {
+    margin-left: 400px;
+    margin-top: -65px;
+    font-size: 15px;
+        font-weight: 300;
+        color: rgb(247, 127, 35);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .footer__days-sunday {
+        margin-left: 800px;
+        margin-top: -75px;
+        font-size: 15px;
+        font-weight: 300;
+        color: rgb(247, 127, 35);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .footer__time-monday {
+      margin-left: 10px;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #335576;
+    }
+    
+    .footer__time-saturday {
+        margin-left: 400px;
+        font-size: 20px;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #335576;
+    }
+    
+    .footer__time-sunday {
+      margin-left: 800px;
+      font-size: 20px;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+      color:#335576;
+    }
+    
+    .footer__title-hours {
+         color:#335576 ;
+          font-size: 45px;
+          font-weight: bold;
+          font-family:Arial, Helvetica, sans-serif;
+          margin-left: 30px;
+    }
+    
+    .footer__info {
+      font-size: 15px;
+        font-weight: 300;
+        color: rgb(247, 127, 35);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .footer__email {
+      font-size: 20px;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+      color:#335576;
+    }
+
+    .destination__title {
+      position: relative;
+      font-size: 100px;
+      float: left;
+      margin-bottom: 1000px;
+      margin-right: -400px;
+      color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .hawaii__schedual {
+      display: flex;
+      flex-direction: column;
+      justify-content:space-evenly;
+      align-content: center;
+    }
+
+    .card-title {
+        font-size: 30px;
+        border-color: black;
+        border-width: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .hawaii__schedual-breackfest {
+        background-color: #fcf6f5;
+        font-size: 30px;
+        margin-bottom: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .hawaii__schedual-lunch {
+      background-color:#ffffff;
+      font-size: 30px;
+      margin-bottom: 90px;
+      font-family: Arial, Helvetica, sans-serif
+    }
+
+    .hawaii__schedual-dinner {
+      background-color: #fcf6f5;
+      font-size: 30px;
+      margin-bottom: 100px;
+      font-family: Arial, Helvetica, sans-serif
+    }
+
+    .hawaii__schedual-snorkeling {
+      background-color: #ffffff;
+      font-size: 30px;
+      margin-bottom: 110px;
+      font-family: Arial, Helvetica, sans-serif
+    }
+    
+    /* Hawaii text title 
+    outside of the bigger div 
+    position relitive 
+
+    horizontal rule 
+
+    put content into own div 
+  
